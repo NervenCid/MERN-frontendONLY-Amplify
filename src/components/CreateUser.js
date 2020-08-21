@@ -6,7 +6,7 @@ import axios from 'axios';
 //Creamos una 'URL' verificar primero
 //Verificar el puerto del servidor en este caso se esta usando el puerto 4000
 //const URL = 'http://localhost:4000';
-const URL = 'http://ec2-34-212-168-1.us-west-2.compute.amazonaws.com:4000';
+const URL = 'https://ec2-34-212-168-1.us-west-2.compute.amazonaws.com:4000';
 
 //Creamos y exportamos el componente
 export default class CreateUser extends Component {
