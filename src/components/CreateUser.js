@@ -6,7 +6,7 @@ import axios from 'axios';
 //Creamos una 'URL' verificar primero
 //Verificar el puerto del servidor en este caso se esta usando el puerto 443
 //const URL = 'http://localhost:443';
-const URL = '54.185.64.134:443';
+const URL = 'https://54.185.64.134:443';
 
 //Creamos y exportamos el componente
 export default class CreateUser extends Component {
