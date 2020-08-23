@@ -4,9 +4,9 @@ import React, { Component } from 'react'
 import axios from 'axios';
 
 //Creamos una 'URL' verificar primero
-//Verificar el puerto del servidor en este caso se esta usando el puerto 4000
-//const URL = 'http://localhost:4000';
-const URL = 'https://ec2-34-212-168-1.us-west-2.compute.amazonaws.com:4000';
+//Verificar el puerto del servidor en este caso se esta usando el puerto 443
+//const URL = 'http://localhost:443';
+const URL = '54.185.64.134:443';
 
 //Creamos y exportamos el componente
 export default class CreateUser extends Component {
